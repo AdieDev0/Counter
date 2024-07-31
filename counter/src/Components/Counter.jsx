@@ -16,8 +16,10 @@ const Counter = () => {
     }
 
     return (
-        <div className='w-full h-screen bg-black text-white py-12 flex items-center justify-center'>
-            <div className='border-2 w-full max-w-[500px] h-[400px] mx-auto rounded-md bg-neutral-900 flex flex-col items-center p-6'>
+        <div className='w-full h-screen text-white py-12 flex items-center justify-center'>
+            <img src="https://wallpaperaccess.com/full/849790.gif" alt="" 
+            className='absolute'/>
+            <div className='border-2 w-full max-w-[500px] h-[400px] mx-auto rounded-md backdrop-blur-sm flex flex-col items-center p-6 relative'>
                 <div className='text-center'>
                     <p className='my-4 text-2xl md:text-4xl font-Oswald'>Number Counter</p>
                     <p className='my-16 text-7xl font-Oswald'>{count}</p>
